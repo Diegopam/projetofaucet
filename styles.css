@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(to bottom, pink, purple, orange);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.container {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    border: 0;
+    margin-top: 10px;
+    box-shadow: 3px 3px 20px 0 white;
+    width: 100%;
+    height: 100%;
+}
+
+.listShort {
+    padding: 3px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    border: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns {
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    border: 0;
+    color: #212121;
+    font-size: 15px;
+    margin: 5px;
+    height: 40px;
+}
+
+.btns:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+    cursor: pointer;
+    box-shadow: 3px 3px 20px 0 red;
+}
+
+.titulo {
+    margin-inline: 1%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+    font-size: larger;
+    text-align: center;
+    height: 30px;
+    width: 300px;
+}
+
+.titulo:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #212121;
+    box-shadow: 3px 3px 20px 0 white;
+    cursor: pointer;
+}
+
+.removePoints {
+    list-style-type: none;
+}
+
+.element {
+    display: inline-flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    height: auto;
+}
+
+.element .short1, .element .short2, .element .short3 {
+    padding: 5px;
+    margin-right: 5px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 3px 3px 20px 0 white;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    color: #181818;
+}
+
+.element .short1:hover, .element .short2:hover, .element .short3:hover {
+    background-color: rgba(255, 0, 0, 0.5);
+    cursor: pointer;
+    box-shadow: 3px 3px 20px 0 red;
+}
+
+.iconEye {
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    position: relative;
+    transform: translateX(4px);
+}
+
+.valueEye {
+    margin: 0px;
+}
+
+.subEye {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
