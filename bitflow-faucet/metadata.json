@@ -1,0 +1,5 @@
+{
+  "name": "BitFlow Faucet",
+  "description": "A modern, responsive, Bitcoin-inspired crypto faucet application featuring a timer-based claim system, shortlinks tasks, and a sleek dark-mode dashboard.",
+  "requestFramePermissions": []
+}
